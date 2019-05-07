@@ -1,0 +1,4 @@
+ls c* | cat > 00.txt
+
+ls c* | cat >> 001.txt
+

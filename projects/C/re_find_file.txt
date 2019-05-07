@@ -1,0 +1,10 @@
+ls c* | cat > waiting.txt
+
+cat waiting.txt | grep -E "c.*?.c"
+
+
+or
+
+ls c* | grep -E "c.*?.c"
+
+
